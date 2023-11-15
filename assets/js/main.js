@@ -79,7 +79,7 @@ const numberGame = () => {
     if(userNumber === gameNumber){
         userResult.textContent = "WELL DONE!! Youe guessed the right Number";
     } else {
-        userResult.textContent = `Sorry, you guessed the wrong number :( Thr number is ${gameNumber} `
+        userResult.textContent = `Sorry, you guessed the wrong number :( The correct number is ${gameNumber} `
     }
 }
 
